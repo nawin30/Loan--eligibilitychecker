@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loan App</title>
+</head>
+<body>
+    <h1 class="glow">Loan Eligibility Calculator</h1>
+    <div class="greeting">
+        <p id="greet"></p>
+    </div>
+    
+    <div class="container">
+    
+        <p><label for="ht">Salary </label><input type="number" id="sal"></p>
+    
+        <p><label for="wt">Cibil Score</label><input type="number" id="cb"></p>
+    
+       <button id="submit"onclick="checkEligibility()">Check</button>
+    
+       <button id="clear"onclick="reload()">Clear</button>
+    
+    </div>
+    
+    <div class="result">
+       <h2 id="eligible"></h2>
+
+    </div>
+    
+        <script src="index.js"></script> 
+</body>
+</html>
